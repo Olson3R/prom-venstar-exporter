@@ -13,6 +13,6 @@ COPY index.ts package.json package-lock.json /app/
 
 RUN npm install
 
-EXPOSE 3000
+EXPOSE 8001
 
 CMD ["npm", "run", "start"]
